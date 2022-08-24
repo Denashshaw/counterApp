@@ -9,7 +9,7 @@ export default function () {
 
   return (
     <>
-      <h1>Hello World {value} </h1>
+      <h1>Count {value} </h1>
       <input name="count" onChange={(e) => setCount(e.target.value)} />
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
